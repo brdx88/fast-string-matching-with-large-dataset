@@ -36,7 +36,7 @@ def match_chunk(chunk, customer_names):
         best_match = get_best_match(name, customer_names)
         if best_match:
             matched_name, score, _ = best_match
-            matched_customer_id = None  # Placeholder for future customer ID logic
+            matched_customer_id = customer_database_pd[customer_database_pd['customer_name'] == matched_name]['id'].values[0]
             results.append((name, matched_name, score, matched_customer_id))
     return results
 
