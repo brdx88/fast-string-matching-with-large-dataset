@@ -27,7 +27,7 @@ Ensure all dependencies are installed before running the project.
 ## Setup Instructions
 1. Clone this repository:
   ```bash
-  git clone https://github.com/fast-string-matching-with-large-dataset.git
+  git clone https://github.com/brdx88/fast-string-matching-with-large-dataset.git
   cd fast-string-matching-with-large-dataset
   ```
 2. Install dependencies:
